@@ -48,7 +48,7 @@ export default function SignUp() {
       <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
         <input type='text' placeholder='username' className='border p-3 rounded-lg' id='username' onChange={handleChange}></input>
         <input type='text' placeholder='email' className='border p-3 rounded-lg' id='email' onChange={handleChange}></input>
-        <input type='text' placeholder='password' className='border p-3 rounded-lg' id='password' onChange={handleChange}></input>
+        <input type='password8' placeholder='password' className='border p-3 rounded-lg' id='password' onChange={handleChange}></input>
         <button disabled={loading} className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'Loading...' : 'Sign Up'}</button>
       </form>
       <div className='flex gap-2 mt-5'>
